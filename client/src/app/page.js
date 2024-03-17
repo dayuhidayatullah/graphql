@@ -89,7 +89,7 @@ function Payment() {
 }
 // Create an ApolloClient instance
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/', // Your GraphQL server endpoint
+  uri: 'https://graphql-leg67te7x-dayuhidayatullahs-projects.vercel.app/', // Your GraphQL server endpoint
   cache: new InMemoryCache(),
 });
 
