@@ -1,0 +1,14 @@
+{
+  "name": "server-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "node src/index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "crypto": "^1.0.1",
+    "graphql": "^16.8.1"
+  }
+}
